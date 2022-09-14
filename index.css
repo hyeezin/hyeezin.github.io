@@ -88,8 +88,6 @@ body {
   font-weight: 600; font-size: 20px;
 }
 
-#weather span:last-child {}
-
 main {
   display: flex; flex-direction: column; align-items: center;
   max-height: 60vh;
@@ -184,5 +182,5 @@ main #todo-list li:hover { background-color: rgba(0, 0, 0, 0.3);}
 }
 
 #quote span:first-child { display:block;}
-#quote span:last-child {}
+
 

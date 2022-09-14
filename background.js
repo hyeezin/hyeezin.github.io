@@ -4,7 +4,7 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img"); //createElement로 html에 element를 추가한다. 
 
-bgImage.src = `../img/${chosenImage}`; //src를 이용하여 img폴더를 지정
+bgImage.src = `./img/${chosenImage}`; //src를 이용하여 img폴더를 지정
 bgImage.style.width = "100vw"
 bgImage.style.height = "100vh"
 
